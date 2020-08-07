@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/css", express.static("css"));
 app.use("/image", express.static("image"));
-
+app.use("/js", express.static("js"));
 app.set("view engine", "pug");
 app.use("/", mainRouter);
 
