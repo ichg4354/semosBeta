@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: #6792c3;
+}
+
+/* HEADER CSS */
+header {
+  margin-bottom: 0;
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.header__title h4{
+  margin-top: 18px;
+  font-size: 25px;
+}
+
+/* MAIN CSS */
+main {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* MAIN__REGIONLEFT CSS */
+.main__regionsLeft {
+  background-color: hotpink;
+  width: 30vw;
+  display: inline-block;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 60px;
+  background-color: #efefef;
+  border: 1px soild grey;
+}
+.main__regionsLeft .block {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(176, 175, 175);
+  color: #6792c3;
+}
+.main__regionsLeft .block:first-child {
+  background-color: white;
+}
+.main__regionsLeft span {
+  position: relative;
+  top: 20px;
+  
+}
+/* MAIN__REGIONRIGHT CSS */
+.main__regionsRight {
+  text-align: right;
+  height: 130vh;
+  width: 100vw;
+  display: inline-block;
+  overflow-y: auto;
+  background-color: white;
+  padding-right: 30px;
+}
+.main__regionsRight .block {
+  width: 100%;
+  height: 60px;
+}
+.main__regionsRight .block {
+  width: 100%;
+  height: 60px;
+  border: 2px solid white;
+}
+.main__regionsRight span {
+  margin-right: 40px;
+  position: relative;
+  top: 20px;
+}

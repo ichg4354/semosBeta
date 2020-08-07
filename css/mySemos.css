@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: #6792c3;
+}
+main {
+  padding: 15px;
+}
+/* HEADER FURTHER CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.header__title h4 {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.header__menu i {
+  font-size: 20px;
+}
+
+/* MAIN__USERINFOS CSS */
+.main__userInfos {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main__userInfos .userInfos__icon {
+  font-size: 50px;
+  margin-right: 5px;
+  margin-left: 30px;
+
+}
+.main__userInfos .userInfos__text h4 {
+  font-size: 18px;
+  margin-bottom: 7px;
+  /* margin-left: 10px; */
+}
+
+/* MAIN__USERRELBUTTONS */
+.main__UserRelButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 20vw;
+  gap: 10px;
+}
+.main__UserRelButtons button:nth-child(3) {
+  grid-column: 1/3;
+}
+.main__UserRelButtons button {
+  border: 0;
+  border-radius: 5px;
+  color: #6792c3;
+  background-color: white;
+  border: 0.5px solid #6792c3;
+  padding: 5px;
+}
+.main__UserRelButtons button a {
+  text-decoration: none;
+  color: #6792c3;
+}
+
+/* MAIN__SEMOSGAUGE CSS */
+.main__semosGauge {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+.main__semosGauge .semosGauge__title {
+  text-align: start;
+}
+.main__semosGauge .semosGauge__image {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  
+}
+.main__semosGauge .semosGauge__points {
+  text-align: end;
+}
+.main__semosGauge .semosGauge__points h4 {
+  width: 100%;
+}
+
+/* MAIN__SEMOSBUTTONS */
+.main__semosButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__semosButtons a {
+  text-align: center;
+  width: 65vw;
+}
+.main__semosButtons span {
+  font-weight: bold;
+}
+.semosButtons__button {
+  text-decoration: none;
+  color: #6792c3;
+  padding: 15px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: #e9f3fe;
+  margin-top: 15px;
+}
+
+/* MAIN__SERVICES CSS */
+.main__services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  padding: 15px;
+}
+.main__services h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.main__services h4:nth-child(2) {
+  font-size: 8px;
+}

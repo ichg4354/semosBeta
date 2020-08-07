@@ -1,0 +1,18 @@
+/* HEADER UNDER BORDER CSS */
+.header__menu div:first-child {
+  border-bottom: 2px solid #ea3c53;
+}
+
+/* MAIN CSS */
+.main__centerDetails {
+  padding: 30px 40px;
+}
+.main__centerDetails i {
+  margin-right: 10px;
+}
+.main__centerDetails div {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  color: grey;
+}

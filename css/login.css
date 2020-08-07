@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-size: 15px;
+  }
+  .loginPage__container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: whitesmoke;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 3px 9px 21px -10px rgba(82, 82, 84, 1);
+  }
+  .mainLogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .loginInputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .loginInputs__email,
+  .loginInputs__password {
+    margin-bottom: 10px;
+    border: 0;
+    width: 70vw;
+    padding: 20px 5px;
+  }
+  .loginInputs h4 {
+    margin-bottom: 100px;
+  }
+  
+  .loginBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .loginPage__container .peopleLogo {
+    width: 100px;
+  }
+  .loginPage__container .wordLogo {
+    width: 110px;
+  }
+  
+  .loginPage__container2 {
+    text-align: center;
+  }
+  .loginPage__container2 h4 {
+    margin-bottom: 0;
+  }
+  .loginPage__container2 h3 {
+    margin-top: 10px;
+  }
+  .loginBtns a {
+    text-decoration: none;
+    padding: 20px 50px;
+  }
+  .loginBtns button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70vw;
+    margin-bottom: 10px;
+  }
+  
+  .loginBtns .loginBtns__kakaoLogin {
+    background-color: #ffe812;
+  }
+  .loginBtns .loginBtns__kakaoLogin a {
+    color: #4b1802;
+    font-weight: bold;
+  }
+  
+  .loginBtns .loginBtns__login {
+    background: rgb(217, 65, 96);
+    height: 50px;
+    background: linear-gradient(
+      273deg,
+      rgba(217, 65, 96, 1) 30%,
+      rgba(51, 83, 245, 1) 100%
+    );
+  }
+  .loginBtns .loginBtns__login a {
+    color: white;
+    font-weight: bold;
+  }
+  

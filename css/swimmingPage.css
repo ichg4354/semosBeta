@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: #6792c3;
+}
+
+/* HEADER CSS */
+header {
+  background-color: white;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
+header .header__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 20px;
+}
+header .header__title i {
+  position: fixed;
+  left: 15px;
+}
+
+header .header__search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+header .header__search input {
+  width: 75vw;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(239, 239, 239);
+}
+
+header .header__menu {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+header .header__menu a {
+  text-decoration: none;
+}
+header .header__menu div {
+  width: 180px;
+  height: 40px;
+}
+header .header__menu div:first-child{
+  border-bottom: 2px solid #6792c3;
+}
+header .header__menu span {
+  font-size: 18px;
+  color: #6792c3;
+  line-height: 40px;
+
+}
+
+/* MAIN CSS */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+main .main__sportsContainers {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main__sportsContainers a {
+  text-decoration: none;
+}
+main .main__sportsContainer {
+  width: 80vw;
+  height: 150px;
+  background-color: #e3e7e9;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+main .main__sportsContainer img {
+  width: 90px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.sportsContainer__details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #6792c3;
+}
+.sportsContainer__details .detail {
+  margin-bottom: 20px;
+}
+
+.sportsContainer__details .details__range {
+  margin-bottom: 20px;
+}
+.sportsContainer__details .details__price {
+  position: relative;
+  align-self: flex-end;
+  justify-self: end;
+  margin-bottom: 0;
+}

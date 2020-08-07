@@ -1,0 +1,59 @@
+/* HEADER UNDER BORDER CSS */
+.header__menu div:nth-child(2) {
+  border-bottom: 2px solid #ea3c53;
+}
+
+/* MAIN CONTAINERS CSS */
+.main__containers {
+  padding: 30px 40px;
+}
+
+.containers__title {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ea3c53;
+}
+
+.containers__container {
+  padding: 28px 20px;
+  color: grey;
+  border-bottom: 2px solid lightgray;
+}
+.containers__container i {
+  color: red;
+  font-size: 20px;
+}
+
+.containers__container .footer__left span {
+  border: 1px solid grey;
+  padding: 2px 2px;
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.container__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer__right span:first-child {
+  font-size: 13px;
+  color: #ea3c53;
+  margin-bottom: 5px;
+}
+.footer__right span:nth-child(2) {
+  color: black;
+}

@@ -1,0 +1,17 @@
+/* HEADER CSS */
+header {
+  background-color: white;
+  border-radius: 0 0 30px 30px;
+  height: 60px;
+  display: flex;
+  box-shadow: 3px 9px 21px -10px rgba(82, 82, 84, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+}
+header img {
+  width: 170px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+ 

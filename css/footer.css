@@ -1,0 +1,27 @@
+/* FOOTER CSS */
+.footer__iconLists {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 50px;
+  border-top: 2px solid whitesmoke;
+  margin-top: 20px;
+}
+
+.footer__iconLists > ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  text-align: center;
+}
+.footer__iconLists ul li {
+  padding: 10px;
+  text-decoration: none;
+}
+.iconLists__icon {
+  width: 30px;
+}
