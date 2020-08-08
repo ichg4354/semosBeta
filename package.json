@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "fullpage.js": "^3.0.9",
     "helmet": "^4.0.0",
-    "mongoose": "^5.9.27",
+    "mongoose": "^5.9.28",
     "pug": "^3.0.0",
     "swiper": "^6.1.1"
   },
