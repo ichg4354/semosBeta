@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 import express from "express";
 import mainRouter from "./routers/mainRouter.js";
 import userRouter from "./routers/userRouter.js";
-
+import "./db.js";
 const app = express();
 app.use(helmet());
 app.use(bodyParser.json());
