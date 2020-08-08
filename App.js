@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import mongoose from "mongoose";
 import express from "express";
 import mainRouter from "./routers/mainRouter.js";
+import userRouter from "./routers/userRouter.js";
 
 const app = express();
 app.use(helmet());
@@ -13,6 +14,8 @@ app.use("/css", express.static("css"));
 app.use("/image", express.static("image"));
 app.use("/js", express.static("js"));
 app.set("view engine", "pug");
+
 app.use("/", mainRouter);
+app.use("/register", userRouter);
 
 export default app;

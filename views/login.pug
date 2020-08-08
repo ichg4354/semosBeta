@@ -1,34 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="../css/login.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="loginPage__container">
-      <div class="mainLogos">
-        <img src="./image/semosPerson.png" class="peopleLogo" />
-        <img src="./image/semosWord.png" class="wordLogo" />
-      </div>
-      <div class="loginInputs">
-        <input type="text" placeholder="Email" class="loginInputs__email" />
-        <input tyle="text" placeholder="Password" class="loginInputs__password">
-        <h4>비밀번호를 잊으셨나요?</h4>
-      </div>
-      <div class="loginBtns">
-        <button class="loginBtns__kakaoLogin">
-          <a href="#">카카오계정으로 로그인</a>
-        </button>
-        <button class="loginBtns__login">
-          <a href="/">로그인</a>
-        </button>
-      </div>
-    </div>
-    <div class="loginPage__container2">
-      <h4>계정이 없으신가요?</h4>
-      <h3>개인회원 가입 | 기업회원 가입</h3>
-    </div>
-  </body>
-</html>
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(href='../css/login.css' rel='stylesheet')
+.loginPage__container
+  .mainLogos
+    img.peopleLogo(src='./image/semosPerson.png')
+    img.wordLogo(src='./image/semosWord.png')
+  .loginInputs
+    input.loginInputs__email(type='text' placeholder='Email')
+    input.loginInputs__password(tyle='text' placeholder='Password')
+    h4 비밀번호를 잊으셨나요?
+  .loginBtns
+    button.loginBtns__kakaoLogin
+      a(href='#') 카카오계정으로 로그인
+    button.loginBtns__login
+      a(href='/') 로그인
+.loginPage__container2
+  h4 계정이 없으신가요?
+  h3 개인회원 가입 | 기업회원 가입

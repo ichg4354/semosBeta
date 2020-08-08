@@ -9,4 +9,5 @@ mainRouter.get("/market", (req, res) => res.send("MARKET"));
 mainRouter.get("/sports", (req, res) => res.send("SPORTS"));
 mainRouter.get("/sports/:id", (req, res) => res.send("SPORTS DETAIL"));
 
+
 export default mainRouter;

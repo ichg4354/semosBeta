@@ -1,107 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    //- <script>
-    //-   src="https://kit.fontawesome.com/11d2b4cc11.js"
-    //-   crossorigin="anonymous"
-    //- </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/mainPage.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/footer.css">
-  </head>
-  <body>
-    <div class="mainPageContainer">
-      <header>
-        <div class="header__textLogo">
-          <img src="./image/semosWord.png" alt="#" />
-        </div>
-      </header>
-      <main>
-        <div class="main__userInfos">
-          <div class="userInfos__text">
-            <h4>안녕하세요</h4>
-            <h4>변민지 님</h4>
-          </div>
-          <div class="userInfos__icon">
-            <i class="far fa-user-circle"></i>
-          </div>
-        </div>
-        <div class="main__sportsList">
-          <a href="#"><img src="./image/seeAllIcon.png" class="sportsList__sport"/></a>
-          <a href="./swimmingPage.html"><img src="./image/swimmingIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/gymIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/yogaIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/golfIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/TaeIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/badmintomIcon.png" class="sportsList__sport"/></a> 
-          <a href="#"><img src="./image/accademyIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/waterSportsIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/boxingIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/4sportsIcon.png" class="sportsList__sport"/></a>
-          <a href="#"><img src="./image/snowSports.png" class="sportsList__sport"/></a>
-        </div>
-        <div class="main__recommendation-text">
-          <h4>운동하기 좋은 오늘</h4>
-          <h4>민지님을 위한 세모스의 추천</h4>
-        </div>
-        <div class="main__carousel">
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./image/carouselImg1.PNG" width="100%"></div>
-              <div class="swiper-slide"><img src="./image/carouselImg2.PNG" width="100%"></div>
-                  <div class="swiper-slide">
-                    <img src="./image/dam-5422929_640.jpg" width="100%">
-                  </div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
-              <div class="swiper-slide">Slide 10</div>
-            </div>
-        </div>
-      </main>
-    </div>
-    <footer>
-      <div class="footer__iconLists">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="./image/homeIcon.png" class="iconLists__icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="./region.html">
-              <img src="./image/mapIcon.png" class="iconLists__icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="./mySurrounds.html">
-              <img src="./image/aroundsIcon.png" class="iconLists__icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="./semosPick.html">
-              <img src="./image/pickIcon.png" class="iconLists__icon"/>
-            </a>
-          </li>
-          <li>
-            <a href="./mySemos.html"><img src="./image/mySemosIcon.png" class="iconLists__icon"/></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <script type="module" src="../js/swiperImport.js"></script>
-    <script type="module" src="../js/swiperInit.js"></script>
-    //- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    //- <!-- Initialize Swiper -->
-    //- <script>
-    //-   var swiper = new Swiper(".swiper-container")
-    //- </script>
-  </body>
-</html>
+doctype html
+head
+  link(rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.css')
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet' href='./css/reset.css')
+  link(rel='stylesheet' href='./css/mainPage.css')
+  link(rel='stylesheet' href='./css/footer.css')
+.mainPageContainer
+  header
+    .header__textLogo
+      img(src='./image/semosWord.png' alt='#')
+  main
+    .main__userInfos
+      .userInfos__text
+        h4 안녕하세요
+        h4 변민지 님
+      .userInfos__icon
+        i.far.fa-user-circle
+    .main__sportsList
+      a(href='#')
+        img.sportsList__sport(src='./image/seeAllIcon.png')
+      a(href='./swimmingPage.html')
+        img.sportsList__sport(src='./image/swimmingIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/gymIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/yogaIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/golfIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/TaeIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/badmintomIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/accademyIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/waterSportsIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/boxingIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/4sportsIcon.png')
+      a(href='#')
+        img.sportsList__sport(src='./image/snowSports.png')
+    .main__recommendation-text
+      h4 운동하기 좋은 오늘
+      h4 민지님을 위한 세모스의 추천
+    .main__carousel
+      .swiper-container
+        .swiper-wrapper
+          .swiper-slide
+            img(src='./image/carouselImg1.PNG' width='100%')
+          .swiper-slide
+            img(src='./image/carouselImg2.PNG' width='100%')
+          .swiper-slide
+            img(src='./image/dam-5422929_640.jpg' width='100%')
+          .swiper-slide Slide 4
+          .swiper-slide Slide 5
+          .swiper-slide Slide 6
+          .swiper-slide Slide 7
+          .swiper-slide Slide 8
+          .swiper-slide Slide 9
+          .swiper-slide Slide 10
+footer
+  .footer__iconLists
+    ul
+      li
+        a(href='#')
+          img.iconLists__icon(src='./image/homeIcon.png')
+      li
+        a(href='./region.html')
+          img.iconLists__icon(src='./image/mapIcon.png')
+      li
+        a(href='./mySurrounds.html')
+          img.iconLists__icon(src='./image/aroundsIcon.png')
+      li
+        a(href='./semosPick.html')
+          img.iconLists__icon(src='./image/pickIcon.png')
+      li
+        a(href='./mySemos.html')
+          img.iconLists__icon(src='./image/mySemosIcon.png')
+script(src="../js/swiperImport.js" type="module")
